@@ -1,2 +1,8 @@
 # MongoDB-with-Python
-Connecting to NOSQL database MongoDB with Python.
+Connecting to NOSQL database MongoDB with Python and perform actions.<br>
+**CONNECTIING WITH mongoDB USING PYTHON.**<BR>
+**CREATING A DATABASE AND DOCUMENTs.**<BR>
+**INSERTING DATA INTO DOCUMENT.**<BR>
+**SEARCHING DATA IN A DOCUMENT.**<BR>
+**UPDATING DATA IN A DOCUMENT.**<BR>
+
