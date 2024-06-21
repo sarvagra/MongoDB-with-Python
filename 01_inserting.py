@@ -1,10 +1,11 @@
+import os
 import pymongo 
 import logging 
 logging.basicConfig(filename="01_logging.log",level=logging.DEBUG, format='%(asctime)s %(message)s')
 
 try:
     logging.info("connecting with the cluster")
-    client = pymongo.MongoClient("mongodb+srv://sarvagras977:saru@cluster0.udp1myf.mongodb.net/")
+    client = pymongo.MongoClient(os.getenv('pw'))
     db=client['sarv']
     logging.info("creating data table")
     data =  {"name" : "sarvagra",
